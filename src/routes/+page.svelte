@@ -1,4 +1,5 @@
 <script>
+    import Button from "$lib/components/Button.svelte";
     import Header from "$lib/components/Header.svelte";
     import pet1 from "../lib/assets/pet1.jpg";
 </script>
