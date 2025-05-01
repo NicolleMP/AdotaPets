@@ -1,4 +1,9 @@
-<button class="btn">Enviar</button>
+<script lang="ts">
+    export let type: "button" | "submit" | "reset" = "button"; 
+</script>
+
+
+<button type={type} class="btn"> <slot /> </button>
 
 <style>
     .btn {

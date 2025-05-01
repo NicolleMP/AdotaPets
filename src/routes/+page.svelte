@@ -1,7 +1,12 @@
-<script>
+<script lang="ts">
     import Button from "$lib/components/Button.svelte";
     import Header from "$lib/components/Header.svelte";
     import pet1 from "../lib/assets/pet1.jpg";
+
+    function enviarFormulario(event: Event) {
+        event.preventDefault();
+        alert("Formulário de adoção enviado com sucesso!");
+    }
 </script>
 
 <Header />
@@ -20,7 +25,7 @@
             <li><strong>Saúde:</strong> Vacinado e castrado</li>
         </ul>
 
-        <form class="formulario">
+        <form class="formulario" on:submit={enviarFormulario}>
             <h3>Formulário de Adoção</h3>
 
             <label for="nome">Nome:</label>
