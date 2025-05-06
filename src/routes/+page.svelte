@@ -66,9 +66,9 @@
     <div class="footer-content">
         <p>© 2025 AdotaPets - Todos os direitos reservados.</p>
         <div class="social-links">
-            <a href="#" target="_blank">Facebook</a>
-            <a href="#" target="_blank">Instagram</a>
-            <a href="#" target="_blank">Twitter</a>
+            <a href="/" target="_blank">Facebook</a>
+            <a href="/" target="_blank">Instagram</a>
+            <a href="/" target="_blank">Twitter</a>
         </div>
     </div>
 </footer>
