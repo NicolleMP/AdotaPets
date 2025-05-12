@@ -7,6 +7,7 @@
 
 <style>
     .btn {
+        margin: 0 auto;
         border: none;
         border-radius: 8px;
         padding: 0.75rem 1.5rem;
