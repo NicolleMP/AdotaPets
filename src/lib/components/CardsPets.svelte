@@ -1,8 +1,8 @@
 <script lang="ts">
     import Button from "$lib/components/Button.svelte";
-    import pet1 from "../assets/pet1.jpg"; 
 
     export let nome;
+    export let imagem;
     export let raca;
     export let idade;
     export let temperamento;
@@ -13,7 +13,7 @@
 <section class="pet-section">
     <div class="infos-pet">
         <h2>Adote o {nome}</h2>
-        <img src={pet1} alt="Foto do pet" />
+        <img src={imagem} alt="Foto do pet" />
 
         <h3>Detalhes importantes:</h3>
         <ul>

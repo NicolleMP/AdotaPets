@@ -1,11 +1,15 @@
 <script lang="ts">
     import Button from "$lib/components/Button.svelte";
+    import Footer from "$lib/components/Footer.svelte";
+    import Header from "$lib/components/Header.svelte";
 
 function enviarFormulario(event: Event) {
         event.preventDefault();
         alert("Formulário de adoção enviado com sucesso!");
     }
 </script>
+
+<Header/>
 
 <div class="form-container">
     <form class="formulario" on:submit={enviarFormulario}>
@@ -42,6 +46,8 @@ function enviarFormulario(event: Event) {
             <Button type="submit">Enviar</Button>
     </form>
 </div>
+
+<Footer/>
 
 <style> 
     .formulario {
