@@ -9,10 +9,10 @@
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/sobre">Sobre</a>
+          <a href="/about">Sobre</a>
         </li>
         <li>
-          <a href="/contato">Contato</a>
+          <a href="/contact">Contato</a>
         </li>
       </ul>
     </nav>
