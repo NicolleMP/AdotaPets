@@ -5,6 +5,8 @@
             <a href="/" target="_blank">Facebook</a>
             <a href="/" target="_blank">Instagram</a>
             <a href="/" target="_blank">Twitter</a>
+            <a href="/posts" target="_blank">API funcionando</a
+            >
         </div>
     </div>
 </footer>
@@ -31,4 +33,6 @@
     .social-links a:hover {
         text-decoration: underline;
     }
+
+    
 </style>
