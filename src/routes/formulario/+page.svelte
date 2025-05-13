@@ -2,6 +2,7 @@
     import Button from "$lib/components/Button.svelte";
     import Footer from "$lib/components/Footer.svelte";
     import Header from "$lib/components/Header.svelte";
+    
 
 function enviarFormulario(event: Event) {
         event.preventDefault();
