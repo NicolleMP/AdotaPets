@@ -2,18 +2,18 @@
     import Button from "$lib/components/Button.svelte";
     import Footer from "$lib/components/Footer.svelte";
     import Header from "$lib/components/Header.svelte";
-    
 
-function enviarFormulario(event: Event) {
+    function enviarFormulario(event: Event) {
         event.preventDefault();
         alert("Formulário de adoção enviado com sucesso!");
     }
 </script>
 
-<Header/>
+<Header />
 
 <div class="form-container">
-    <form class="formulario" on:submit={enviarFormulario}>
+    <div class="form-wrapper">
+        <form class="formulario" on:submit={enviarFormulario}>
             <h3>Formulário de Adoção</h3>
 
             <label for="nome">Nome:</label>
@@ -45,12 +45,32 @@ function enviarFormulario(event: Event) {
             ></textarea>
 
             <Button type="submit">Enviar</Button>
-    </form>
+        </form>
+    </div>
 </div>
 
-<Footer/>
+<Footer />
 
-<style> 
+<style>
+    .form-wrapper {
+        max-width: 600px;
+        width: 100%;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        padding: 2.5rem;
+        transition: transform 0.3s ease;
+    }
+    .form-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form-wrapper:hover {
+        transform: scale(1.01);
+    }
+
     .formulario {
         display: flex;
         flex-direction: column;
